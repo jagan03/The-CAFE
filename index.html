@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cafe Website</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="#home">THE CAFE</a>
+        </div>
+        <div class="navlinks">
+            <ul>
+                <a href="#home" class="navlink">
+                    <li>
+                        Home
+                    </li>
+                </a>
+                <a href="#about" class="navlink">
+                    <li>
+                        Services
+                    </li>
+                </a>
+                <a href="#services" class="navlink">
+                    <li>
+                        Booking
+                    </li>
+                </a>
+                <a href="#contact" class="navlink">
+                    <li>
+                        About Us
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </div>
+    <!-- Go to Top Button -->
+    <div class="circleBtn">
+        <span class="material-icons">
+            expand_less
+        </span>
+    </div>
+
+    <div class="hero" id="home">
+        <div class="overlay">
+            <div class="text">
+                Welcome to the Cafe!
+            </div>
+            <a href="#services" class="btn">Explore</a>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="heading">
+            Services
+        </div>
+        <div data-aos="fade-up" class="cardRow">
+            <div class="card">
+                <div class="icon">
+                    <span class="material-icons">
+                        coffee_maker
+                    </span>
+
+                </div>
+                <div class="cardTitle">
+                    Coffee
+                </div>
+                <div class="cardContent">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Natus
+                    ipsa tempora repellat voluptate.
+                    Ratione sunt nisi minima! Reiciendis.
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <span class="material-icons">
+                        delivery_dining
+                    </span>
+                </div>
+                <div class="cardTitle">
+                    Delivery
+                </div>
+                <div class="cardContent">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Natus
+                    ipsa tempora repellat voluptate.
+                    Ratione sunt nisi minima! Reiciendis.
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <span class="material-icons">
+                        restaurant_menu
+                    </span>
+
+                </div>
+                <div class="cardTitle">
+                    Dining
+                </div>
+                <div class="cardContent">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Natus
+                    ipsa tempora repellat voluptate.
+                    Ratione sunt nisi minima! Reiciendis.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="booking" id="booking">
+        <div class="overlay">
+            <div class="heading">
+                Book Now
+            </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nesciunt, itaque?
+            </div>
+            <div class="btnHolder">
+                <a href="#" class="btn">Book Now</a>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
